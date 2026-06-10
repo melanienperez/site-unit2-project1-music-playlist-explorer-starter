@@ -34,7 +34,7 @@ Estimated time spent: **12** hours spent in total
   - [x] The modal itself should:
     - [x] Not occupy the entire screen.
     - [x] Have a shadow to show that it is a pop-up.
-    - [x] Appear floating on the screen.
+    - [x] Appears floating on the screen.
     - [x] The backdrop should appear darker or in a different shade.
 
 - [x] **Like Playlists**
@@ -124,7 +124,7 @@ Estimated time spent: **12** hours spent in total
   - [ ] Playlists matching the search query in the text input are displayed in a grid view when the user:
     - [ ] Presses the Enter Key
     - [ ] Clicks the Submit/Search Button 
-  - [ ] User can click the clear button. When clicked:
+  - [ ] Users can click the clear button. When clicked:
     - [ ] All text in the text input field is deleted
     - [ ] All playlists in the `data.json` file are displayed in a grid view
     - [ ] **Optional:** If the Add Playlist, Edit Existing Playlist, or Delete Playlist stretch features were implemented:
@@ -153,7 +153,7 @@ Yes, all the labs definitely prepared me to complete the assignment. It was very
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-If I had more time I would have integrated more strecth features, however I really wanted to add the sorting system specifically the one that organizes the playlists by language because I have some spanish playlists. 
+If I had more time I would have integrated more stretch features, however I really wanted to add the sorting system specifically the one that organizes the playlists by language because I have some spanish playlists. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
@@ -169,3 +169,4 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
