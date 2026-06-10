@@ -157,7 +157,7 @@ If I had more time I would have integrated more stretch features, however I real
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Something I think went well on my project was that I went straight to the point, however I do have practice more when it comes to answering audience questions. 
 
 ### Open-source libraries used
 
