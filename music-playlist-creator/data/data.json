@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Beach Day",
+    "author": "LunaWave",
+    "language": "English",
+    "coverImage": "https://fastly.picsum.photos/id/994/200/200.jpg?hmac=a0dwH_eftBXVmeonrMy5xNmGDPwiXgXrzUjjUQLEtR8",
+    "likeCount": 17,
+    "dateAdded": "2026-06-01",
+    "songs": [
+      {
+        "title": "The Bay",
+        "artist": "Yot Club",
+        "image": "assets/img/songs/p1-s1.png",
+        "duration": "2:47"
+      },
+      {
+        "title": "Star Love",
+        "artist": "late night drive home",
+        "image": "assets/img/songs/p1-s2.png",
+        "duration": "3:38"
+      },
+      {
+        "title": "Friends",
+        "artist": "Vacations",
+        "image": "assets/img/songs/p1-s3.png",
+        "duration": "2:32"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "2010's",
+    "author": "NeonEcho",
+    "language": "English",
+    "coverImage": "https://fastly.picsum.photos/id/408/200/200.jpg?hmac=VJjKULX_XeyV5C9mbWyv6XTsG5EV-ZBsqbiQIi6xTeg",
+    "likeCount": 4,
+    "dateAdded": "2026-05-28",
+    "songs": [
+      {
+        "title": "Young Dumb & Broke",
+        "artist": "Khalid",
+        "image": "assets/img/songs/p2-s1.png",
+        "duration": "3:23"
+      },
+      {
+        "title": "Am I Wrong",
+        "artist": "Nico & Vinz",
+        "image": "assets/img/songs/p2-s2.png",
+        "duration": "4:06"
+      },
+      {
+        "title": "Summer",
+        "artist": "Calvin Harris",
+        "image": "assets/img/songs/p2-s3.png",
+        "duration": "3:43"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Spanish Rock",
+    "author": "VinylVista",
+    "language": "Spanish",
+    "coverImage": "https://fastly.picsum.photos/id/184/200/200.jpg?hmac=MflhZikSXVt3rvwnx8_nAvoHdLOwJFA0B2_Mk8vQvms",
+    "likeCount": 23,
+    "dateAdded": "2026-06-05",
+    "songs": [
+      {
+        "title": "Oye Mi Amor",
+        "artist": "Maná",
+        "image": "assets/img/songs/p3-s1.png",
+        "duration": "4:23"
+      },
+      {
+        "title": "Lamento Boliviano",
+        "artist": "Los Enanitos Verdes",
+        "image": "assets/img/songs/p3-s2.png",
+        "duration": "3:41"
+      },
+      {
+        "title": "Afuera",
+        "artist": "Caifanes",
+        "image": "assets/img/songs/p3-s3.png",
+        "duration": "4:47"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hype Music",
+    "author": "MidnightMix",
+    "language": "English",
+    "coverImage": "https://fastly.picsum.photos/id/1081/200/200.jpg?hmac=jyxOLb8HFEGU9gP9khyXdMjr1zDV7sT6gv1_mYxlheY",
+    "likeCount": 9,
+    "dateAdded": "2026-06-02",
+    "songs": [
+      {
+        "title": "What Did I Miss?",
+        "artist": "Drake",
+        "image": "assets/img/songs/p4-s1.png",
+        "duration": "3:14"
+      },
+      {
+        "title": "Forever Ever (feat. Young Thug & Reese LAFLARE)",
+        "artist": "Trippie Redd",
+        "image": "assets/img/songs/p4-s2.png",
+        "duration": ""
+      },
+      {
+        "title": "YOSEMITE",
+        "artist": "Travis Scott",
+        "image": "assets/img/songs/p4-s3.png",
+        "duration": "2:30"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Latin Party",
+    "author": "SonicBloom",
+    "language": "Spanish",
+    "coverImage": "https://fastly.picsum.photos/id/828/200/200.jpg?hmac=XDYHUvU1Ha9LQrkNk3svII_91vwnQqo8C0yWMqCt6V8",
+    "likeCount": 31,
+    "dateAdded": "2026-05-30",
+    "songs": [
+      {
+        "title": "Inténtalo",
+        "artist": "3BallMTY, America Sierra, El Bebeto",
+        "image": "assets/img/songs/p5-s1.png",
+        "duration": "3:13"
+      },
+      {
+        "title": "Danza Kuduro",
+        "artist": "Don Omar, Lucenzo",
+        "image": "assets/img/songs/p5-s2.png",
+        "duration": "3:18"
+      },
+      {
+        "title": "Mi Gente",
+        "artist": "J Balvin, William",
+        "image": "assets/img/songs/p5-s3.png",
+        "duration": "3:09"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "DJ Set",
+    "author": "GalaxyRoyale",
+    "language": "English",
+    "coverImage": "https://fastly.picsum.photos/id/427/200/200.jpg?hmac=s_shz8jLgIAiRoZ7FP0MA88RuD5sS0xJIGNmuTZLvs8",
+    "likeCount": 0,
+    "dateAdded": "2026-06-07",
+    "songs": [
+      {
+        "title": "Where Have you Been",
+        "artist": "Rihanna",
+        "image": "assets/img/songs/p6-s1.png",
+        "duration": "4:02"
+      },
+      {
+        "title": "As Long As You Love Me",
+        "artist": "Justin Bieber",
+        "image": "assets/img/songs/p6-s2.png",
+        "duration": "3:49"
+      },
+      {
+        "title": "On the Floor",
+        "artist": "Jennifer Lopez, Pitbull",
+        "image": "assets/img/songs/p6-s3.png",
+        "duration": "4:45"
+      }
+    ]
+  }
+]

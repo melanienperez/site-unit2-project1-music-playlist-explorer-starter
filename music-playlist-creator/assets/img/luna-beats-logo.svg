@@ -1,0 +1,61 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for soft glow effect -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e0c3fc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c3b1e1;stop-opacity:0.3" />
+    </radialGradient>
+
+    <!-- Gradient for vinyl -->
+    <radialGradient id="vinylGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#b4a5d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9d8ec7;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Waxing Crescent -->
+  <g transform="translate(60, 100)">
+    <circle cx="0" cy="0" r="42" fill="#e0c3fc" opacity="0.2"/>
+    <path d="M 0,-40 A 40,40 0 0,1 0,40 A 20,40 0 0,0 0,-40 Z" fill="#d4b5f0" opacity="0.9"/>
+  </g>
+
+  <!-- Waxing Gibbous -->
+  <g transform="translate(180, 100)">
+    <circle cx="0" cy="0" r="42" fill="#e0c3fc" opacity="0.2"/>
+    <path d="M 0,-40 A 40,40 0 0,1 0,40 A 15,40 0 0,1 0,-40 Z" fill="#c9aaeb" opacity="0.9"/>
+  </g>
+
+  <!-- Full Moon as Vinyl Record -->
+  <g transform="translate(300, 100)">
+    <!-- Outer glow -->
+    <circle cx="0" cy="0" r="50" fill="url(#moonGlow)"/>
+
+    <!-- Vinyl disc -->
+    <circle cx="0" cy="0" r="40" fill="url(#vinylGradient)"/>
+
+    <!-- Vinyl grooves (concentric circles) -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="23" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#8a7aae" stroke-width="0.5" opacity="0.6"/>
+
+    <!-- Center label -->
+    <circle cx="0" cy="0" r="12" fill="#e8dff5"/>
+    <circle cx="0" cy="0" r="4" fill="#9d8ec7"/>
+  </g>
+
+  <!-- Waning Gibbous -->
+  <g transform="translate(420, 100)">
+    <circle cx="0" cy="0" r="42" fill="#e0c3fc" opacity="0.2"/>
+    <path d="M 0,-40 A 40,40 0 0,0 0,40 A 15,40 0 0,0 0,-40 Z" fill="#c9aaeb" opacity="0.9"/>
+  </g>
+
+  <!-- Waning Crescent -->
+  <g transform="translate(540, 100)">
+    <circle cx="0" cy="0" r="42" fill="#e0c3fc" opacity="0.2"/>
+    <path d="M 0,-40 A 40,40 0 0,0 0,40 A 20,40 0 0,1 0,-40 Z" fill="#d4b5f0" opacity="0.9"/>
+  </g>
+</svg>

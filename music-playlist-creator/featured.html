@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LunaBeats - Featured</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">LunaBeats</h1>
+    <img src="assets/img/luna-beats-logo.svg" alt="Luna Beats logo" class="site-logo">
+
+    <nav class="playlist-nav" aria-label="View playlists">
+      <a class="nav-link" href="index.html">All Playlists</a>
+      <a class="nav-link is-active" href="featured.html" aria-current="page">Featured</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <section class="featured-layout" aria-label="Featured playlist">
+      <div class="featured-left-panel">
+        <img
+          class="featured-cover-image"
+          src="https://placehold.co/420x420?text=Loading"
+          alt="Featured playlist cover image"
+        >
+        <h2 class="featured-playlist-name">Loading playlist...</h2>
+        <p class="featured-playlist-date">Date Added: --</p>
+      </div>
+
+      <section class="featured-right-panel" aria-label="Featured playlist songs">
+        <h3 class="featured-song-heading">Song List</h3>
+        <div class="featured-song-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small class="footer-text">LunaBeats</small>
+  </footer>
+
+  <script src="featured.js"></script>
+</body>
+</html>

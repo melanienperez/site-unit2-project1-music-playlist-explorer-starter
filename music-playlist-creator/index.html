@@ -4,24 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Music Playlist Explorer</title>
+    <title>LunaBeats</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <!-- Your header content here -->
+    <header class="site-header">
+      <h1 class="site-title">LunaBeats</h1>
+      <img src="assets/img/luna-beats-logo.svg" alt="Luna Beats logo" class="site-logo">
+
+      <nav class="playlist-nav" aria-label="View playlists">
+        <a class="nav-link is-active" href="index.html" aria-current="page">
+          All Playlists
+        </a>
+        <a class="nav-link" href="featured.html">
+          Featured
+        </a>
+      </nav>
+
+      <div class="playlist-controls">
+        <label class="playlist-sort-label" for="playlist-sort">Sort By</label>
+        <select class="playlist-sort-select" id="playlist-sort" name="playlist-sort">
+          <option value="original">Original Order</option>
+          <option value="name-az">Name (A-Z)</option>
+          <option value="likes-desc">Likes (High-Low)</option>
+          <option value="date-desc">Date Added (Newest-Oldest)</option>
+          <option value="language-spanish-first">Language (Spanish - English)</option>
+        </select>
+      </div>
     </header>
-
-    <main> 
-        <!-- Your main content here -->
+  
+    <main class="site-main">
+      <section class="playlist-cards" id="all-playlists" aria-label="All playlists"></section>
     </main>
-
-    <footer>
-        <!-- Your footer content here -->
+  
+    <footer class="site-footer">
+      <small class="footer-text">LunaBeats</small>
     </footer>
-    <script src="data/data.js"></script>
+
+    <div class="modal-overlay is-hidden" aria-hidden="true">
+      <div class="modal-content">
+        <header class="modal-playlist-header">
+          <img
+            class="modal-playlist-cover-image"
+            src="https://placehold.co/150x150"
+            alt="Chill Vibes cover image"
+          >
+          <div class="modal-playlist-meta">
+            <h2 class="modal-playlist-title">Chill Vibes</h2>
+            <p class="modal-playlist-author">Creator Name</p>
+            <p class="modal-playlist-date">Date Added: 2026-01-01</p>
+            <button class="modal-shuffle-button" type="button">Shuffle Songs</button>
+            <button class="modal-description-button" type="button">Get Description</button>
+            <p class="ai-description"></p>
+          </div>
+        </header>
+
+        <section class="modal-song-section" aria-label="Playlist songs">
+          <article class="modal-song-row">
+            <img class="modal-song-cover-image" src="https://placehold.co/56x56" alt="Song One thumbnail">
+            <div class="modal-song-meta">
+              <p class="modal-song-title">Song One</p>
+              <p class="modal-song-artist">Artist Name</p>
+            </div>
+            <p class="modal-song-duration">0:00</p>
+          </article>
+
+          <article class="modal-song-row">
+            <img class="modal-song-cover-image" src="https://placehold.co/56x56" alt="Song Two thumbnail">
+            <div class="modal-song-meta">
+              <p class="modal-song-title">Song Two</p>
+              <p class="modal-song-artist">Artist Name</p>
+            </div>
+            <p class="modal-song-duration">0:00</p>
+          </article>
+
+          <article class="modal-song-row">
+            <img class="modal-song-cover-image" src="https://placehold.co/56x56" alt="Song Three thumbnail">
+            <div class="modal-song-meta">
+              <p class="modal-song-title">Song Three</p>
+              <p class="modal-song-artist">Artist Name</p>
+            </div>
+            <p class="modal-song-duration">0:00</p>
+          </article>
+        </section>
+      </div>
+    </div>
+  
+    <script src="../config.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
